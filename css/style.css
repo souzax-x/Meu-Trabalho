@@ -100,3 +100,31 @@ span {
   font-size: 1.1rem;
   color: #495057;
 }
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+
+@media (max-width: 768px) {
+  .input-group {
+    flex-direction: column; 
+    align-items: stretch;
+  }
+
+  .input-group-btn {
+    margin: 10px 0 0 0; 
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%; 
+    margin-top: 10px;
+  }
+
+  .form-control {
+    margin-bottom: 10px; 
+    width: 100%;
+  }
+}
