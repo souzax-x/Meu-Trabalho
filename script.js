@@ -26,6 +26,7 @@ searchBtn.addEventListener("click", (event) => {
             <h4>${data[0].capital[0]}</h4>
             <h4>${data[0].continents[0]}</h4>
             <h4>${Object.values(data[0].languages).toString().split(",").join(", ")}</h4>
+            <h4>${data[0].currencies[Object.keys(data[0].currencies)].name}</h4>
             `;
         });
 });
