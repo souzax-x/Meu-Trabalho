@@ -1,0 +1,16 @@
+{
+    "name": "Countries - ADS29",
+    "short_name": "Countries",
+    "description": "Buscador de Países",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffcc00",
+    "icons": [
+      {
+        "src": "image/icone.jpg",
+        "sizes": "512x512",
+        "type": "image/jpg"
+      }
+    ]
+  }
